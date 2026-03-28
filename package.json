@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "12.6.12",
-    "@astrojs/mdx": "4.3.13",
-    "@astrojs/rss": "4.0.14",
-    "@astrojs/sitemap": "3.6.1",
+    "@astrojs/mdx": "4.0.0",
+    "@astrojs/rss": "4.0.0",
+    "@astrojs/sitemap": "3.0.0",
     "astro": "5.13.5",
     "@astrojs/compiler": "2.10.4",
     "typescript": "5.9.3"
@@ -35,7 +35,11 @@
     "preview": "astro build && wrangler dev"
   },
   "overrides": {
-    "@astrojs/compiler": "2.10.4"
+    "astro": "5.13.5",
+    "@astrojs/compiler": "2.10.4",
+    "@astrojs/mdx": "4.0.0",
+    "@astrojs/rss": "4.0.0",
+    "@astrojs/sitemap": "3.0.0"
   },
   "type": "module"
 }
